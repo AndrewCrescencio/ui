@@ -1,6 +1,6 @@
-<h1 align="center">
+<p align="center">
 <a href="https://github.com/AndrewCrescencio/my-nuxt3">My Nuxt 3</a>
-</h1>
+</p>
 
 ## Features
 
