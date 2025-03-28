@@ -1,6 +1,6 @@
-<h2 align="center">
+<h1 align="center">
 <a href="https://github.com/AndrewCrescencio/my-nuxt3">My Nuxt 3</a>
-</h2>
+</h1>
 
 ## Features
 
@@ -20,7 +20,7 @@
 
 - 📥 APIs auto importing - for Composition API, VueUse and custom composables.
 
-- 🦾 TypeScript, of course.
+- 🦾 TypeScript, of course
 
 - 📲 [PWA](https://github.com/vite-pwa/nuxt) with offline support and auto-update behavior.
 
