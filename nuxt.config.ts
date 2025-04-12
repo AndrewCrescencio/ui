@@ -1,4 +1,5 @@
-import Aura from '@primevue/themes/aura'
+// import Aura from '@primevue/themes/aura'
+import Aura from '@primeuix/themes/aura'
 import { pwa } from './app/config/pwa'
 import { appDescription } from './app/constants/index'
 
@@ -60,7 +61,9 @@ export default defineNuxtConfig({
     typedPages: true,
   },
 
-  compatibilityDate: '2024-08-14',
+  compatibilityDate: '2025-04-11',
+
+  // compatibilityDate: '2024-08-14',
 
   nitro: {
     esbuild: {
@@ -88,27 +91,27 @@ export default defineNuxtConfig({
     vueI18n: '~/i18n/i18n.config.ts',
   },
 
-  primevue: {
-    autoImport: true,
+  // primevue: {
+  //   autoImport: true,
 
-    components: {
-      prefix: 'Prime',
+  //   components: {
+  //     prefix: 'Prime',
 
-    },
-    options: {
+  //   },
+  //   options: {
 
-      ripple: true,
-      theme: {
+  //     ripple: true,
+  //     theme: {
 
-        preset: Aura,
-        cssLayer: {
-          name: 'primevue',
-          order: 'tailwind-base',
-        },
-      },
+  //       preset: Aura,
+  //       cssLayer: {
+  //         name: 'primevue',
+  //         order: 'tailwind-base',
+  //       },
+  //     },
 
-    },
-  },
+  //   },
+  // },
 
   pwa,
 

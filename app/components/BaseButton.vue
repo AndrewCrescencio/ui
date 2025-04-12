@@ -1,5 +1,7 @@
 <template>
-  <PrimeButton>
+  <!-- <PrimeButton> -->
+  <button>
     <slot />
-  </PrimeButton>
+  </button>
+  <!-- </PrimeButton> -->
 </template>
